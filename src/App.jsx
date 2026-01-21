@@ -7,13 +7,11 @@ import Home from './pages/home/home.jsx';
 
 function App() {
     return (
-        <Router>
-            <div className="app">
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                </Routes>
-            </div>
-        </Router>
+        <div className="app">
+            <Routes>
+                <Route path="/" element={<Home />} />
+            </Routes>
+        </div>
     );
 }
 

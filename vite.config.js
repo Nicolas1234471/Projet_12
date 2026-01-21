@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: './Projet_12/',
+  base: '/Projet_12/',
 });
